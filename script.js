@@ -26,7 +26,7 @@
       'author-label': 'Par',
       'description-title': 'Description',
       'download-button': '⬇ Télécharger',
-      'footer-text': 'MultiDB — Store communautaire de mods et textures pour MultiCraft. Non affilié à l\'éditeur du jeu.',
+      'footer-text': 'MultiDB — Store communautaire de mods et textures pour MultiCraft. Non affilié à MultiCraft.',
       'page-title': 'MultiDB — Mods & Textures pour MultiCraft',
       'page-description': 'MultiDB, le store communautaire de mods et textures pour MultiCraft.',
       'page-detail-title': '— MultiDB'
@@ -50,7 +50,7 @@
       'author-label': 'By',
       'description-title': 'Description',
       'download-button': '⬇ Download',
-      'footer-text': 'MultiDB — Community store of mods and textures for MultiCraft. Not affiliated with the game publisher.',
+      'footer-text': 'MultiDB — Community store of mods and textures for MultiCraft. Not affiliated with MultiCraft.',
       'page-title': 'MultiDB — Mods & Textures for MultiCraft',
       'page-description': 'MultiDB, the community store of mods and textures for MultiCraft.',
       'page-detail-title': '— MultiDB'
