@@ -1,74 +1,184 @@
 [
   {
     "id": "biomes-plus",
+    "category": "mod",
     "name": "Biomes Plus",
     "author": "Yorlan_Dev",
     "image": "https://picsum.photos/seed/biomesplus/640/420",
     "download": "https://example.com/downloads/biomes-plus-2.4.zip",
     "source": "https://github.com/yorlan-dev/biomes-plus",
-    "description": "Biomes Plus ajoute 14 nouveaux biomes à MultiCraft : marécages brumeux, canyons de grès rouge, forêts de bambous, toundra gelée et bien plus.\n\nChaque biome possède sa propre génération de terrain, sa végétation unique et ses minerais spécifiques. Le mod inclut également un système de transition douce entre les biomes pour éviter les bordures abruptes.\n\nCompatible avec la plupart des mods de génération de terrain existants. Aucune dépendance requise."
+    "description": {
+      "fr": "Biomes Plus ajoute 14 nouveaux biomes à MultiCraft : marécages brumeux, canyons de grès rouge, forêts de bambous, toundra gelée et bien plus.\n\nChaque biome possède sa propre génération de terrain, sa végétation unique et ses minerais spécifiques. Le mod inclut également un système de transition douce entre les biomes pour éviter les bordures abruptes.\n\nCompatible avec la plupart des mods de génération de terrain existants. Aucune dépendance requise.",
+      "en": "Biomes Plus adds 14 new biomes to MultiCraft: misty swamps, red sandstone canyons, bamboo forests, frozen tundra and much more.\n\nEach biome has its own terrain generation, unique vegetation and specific ores. The mod also includes a smooth transition system between biomes to avoid abrupt borders.\n\nCompatible with most existing terrain-generation mods. No dependency required."
+    }
   },
   {
     "id": "techcraft-industries",
+    "category": "mod",
     "name": "TechCraft Industries",
     "author": "RustyGears",
     "image": "https://picsum.photos/seed/techcraft/640/420",
     "download": "https://example.com/downloads/techcraft-industries-1.9.zip",
     "source": "https://github.com/rustygears/techcraft-industries",
-    "description": "Un mod d'industrialisation complet : convoyeurs, fours électriques, générateurs et un réseau d'énergie basé sur des câbles.\n\nTechCraft Industries introduit plus de 40 nouvelles machines réparties en 4 tiers de progression, du moteur à vapeur au réacteur à fusion. Un système de recherche débloque progressivement les recettes les plus avancées.\n\nNote : nécessite au moins 512 Mo de RAM allouée au serveur pour de bonnes performances avec de nombreuses machines actives."
+    "description": {
+      "fr": "Un mod d'industrialisation complet : convoyeurs, fours électriques, générateurs et un réseau d'énergie basé sur des câbles.\n\nTechCraft Industries introduit plus de 40 nouvelles machines réparties en 4 tiers de progression, du moteur à vapeur au réacteur à fusion. Un système de recherche débloque progressivement les recettes les plus avancées.\n\nNote : nécessite au moins 512 Mo de RAM allouée au serveur pour de bonnes performances avec de nombreuses machines actives.",
+      "en": "A complete industrialization mod: conveyors, electric furnaces, generators and a cable-based energy network.\n\nTechCraft Industries introduces more than 40 new machines spread across 4 progression tiers, from the steam engine to the fusion reactor. A research system gradually unlocks the most advanced recipes.\n\nNote: requires at least 512 MB of RAM allocated to the server for good performance with many active machines."
+    }
   },
   {
     "id": "mob-horizon",
+    "category": "mod",
     "name": "Mob Horizon",
     "author": "Celestine",
     "image": "https://picsum.photos/seed/mobhorizon/640/420",
     "download": "https://example.com/downloads/mob-horizon-3.1.zip",
     "source": "https://github.com/celestine-mods/mob-horizon",
-    "description": "Mob Horizon repeuple le monde de MultiCraft avec plus de 25 créatures inédites : loups des cimes, golems de basalte, esprits des bois et créatures aquatiques abyssales.\n\nChaque créature possède un comportement propre (groupes, territoires, cycles jour/nuit) et certaines lâchent des ressources exclusives utilisables dans des recettes additionnelles fournies par le mod.\n\nUn fichier de configuration permet d'activer ou désactiver chaque créature individuellement, idéal pour les serveurs qui veulent garder le contrôle sur leur écosystème."
+    "description": {
+      "fr": "Mob Horizon repeuple le monde de MultiCraft avec plus de 25 créatures inédites : loups des cimes, golems de basalte, esprits des bois et créatures aquatiques abyssales.\n\nChaque créature possède un comportement propre (groupes, territoires, cycles jour/nuit) et certaines lâchent des ressources exclusives utilisables dans des recettes additionnelles fournies par le mod.\n\nUn fichier de configuration permet d'activer ou désactiver chaque créature individuellement, idéal pour les serveurs qui veulent garder le contrôle sur leur écosystème.",
+      "en": "Mob Horizon repopulates the MultiCraft world with more than 25 new creatures: highland wolves, basalt golems, forest spirits and abyssal aquatic creatures.\n\nEach creature has its own behavior (packs, territories, day/night cycles), and some drop exclusive resources usable in additional recipes provided by the mod.\n\nA configuration file lets you enable or disable each creature individually, ideal for servers that want to keep control over their ecosystem."
+    }
   },
   {
     "id": "better-farming",
+    "category": "mod",
     "name": "Better Farming",
     "author": "PixelHoe",
     "image": "https://picsum.photos/seed/betterfarming/640/420",
     "download": "https://example.com/downloads/better-farming-2.0.zip",
     "source": "https://github.com/pixelhoe/better-farming",
-    "description": "Better Farming réinvente l'agriculture : nouvelles cultures, système d'irrigation, engrais composables et serres pour cultiver hors saison.\n\nLe mod ajoute également un système de qualité des récoltes influencé par l'eau, la lumière et le type de sol, qui affecte la quantité de nourriture obtenue à la récolte.\n\nLéger et pensé pour les petits serveurs communautaires, sans dépendance externe."
+    "description": {
+      "fr": "Better Farming réinvente l'agriculture : nouvelles cultures, système d'irrigation, engrais composables et serres pour cultiver hors saison.\n\nLe mod ajoute également un système de qualité des récoltes influencé par l'eau, la lumière et le type de sol, qui affecte la quantité de nourriture obtenue à la récolte.\n\nLéger et pensé pour les petits serveurs communautaires, sans dépendance externe.",
+      "en": "Better Farming reinvents farming: new crops, an irrigation system, composable fertilizers and greenhouses to grow out of season.\n\nThe mod also adds a harvest-quality system influenced by water, light and soil type, which affects the amount of food obtained at harvest.\n\nLightweight and designed for small community servers, with no external dependency."
+    }
   },
   {
     "id": "nether-gates",
+    "category": "mod",
     "name": "Nether Gates",
     "author": "Obsidienne",
     "image": "https://picsum.photos/seed/nethergates/640/420",
     "download": "https://example.com/downloads/nether-gates-1.5.zip",
     "source": "https://github.com/obsidienne/nether-gates",
-    "description": "Ouvre un tout nouveau monde souterrain hostile rempli de structures en obsidienne, de pièges anciens et d'un boss final unique.\n\nNether Gates ajoute un portail craftable, un set d'armure résistant à la lave et une dizaine de nouvelles structures explorables générées proceduralement.\n\nAttention : ce mod modifie la génération du monde, il est recommandé de l'installer avant de démarrer un nouveau monde."
+    "description": {
+      "fr": "Ouvre un tout nouveau monde souterrain hostile rempli de structures en obsidienne, de pièges anciens et d'un boss final unique.\n\nNether Gates ajoute un portail craftable, un set d'armure résistant à la lave et une dizaine de nouvelles structures explorables générées proceduralement.\n\nAttention : ce mod modifie la génération du monde, il est recommandé de l'installer avant de démarrer un nouveau monde.",
+      "en": "Opens a brand new hostile underground world filled with obsidian structures, ancient traps and a unique final boss.\n\nNether Gates adds a craftable portal, a lava-resistant armor set, and around ten new procedurally generated structures to explore.\n\nWarning: this mod changes world generation, so it's recommended to install it before starting a new world."
+    }
   },
   {
     "id": "autobuild-tools",
+    "category": "mod",
     "name": "AutoBuild Tools",
     "author": "Quentin.exe",
     "image": "https://picsum.photos/seed/autobuild/640/420",
     "download": "https://example.com/downloads/autobuild-tools-4.2.zip",
     "source": "https://github.com/quentinexe/autobuild-tools",
-    "description": "Une boîte à outils pour les bâtisseurs : outils de copie/collage de structures, gabarits symétriques, et un mode plan pour prévisualiser une construction avant de poser le premier bloc.\n\nAutoBuild Tools s'adresse surtout aux administrateurs de serveurs créatifs, avec des permissions configurables pour limiter l'accès aux outils les plus puissants.\n\nInterface en jeu via un menu dédié, aucune commande à mémoriser."
+    "description": {
+      "fr": "Une boîte à outils pour les bâtisseurs : outils de copie/collage de structures, gabarits symétriques, et un mode plan pour prévisualiser une construction avant de poser le premier bloc.\n\nAutoBuild Tools s'adresse surtout aux administrateurs de serveurs créatifs, avec des permissions configurables pour limiter l'accès aux outils les plus puissants.\n\nInterface en jeu via un menu dédié, aucune commande à mémoriser.",
+      "en": "A toolkit for builders: structure copy/paste tools, symmetrical templates, and a blueprint mode to preview a build before placing the first block.\n\nAutoBuild Tools is aimed mainly at creative-server admins, with configurable permissions to restrict access to the most powerful tools.\n\nIn-game interface via a dedicated menu, no commands to memorize."
+    }
   },
   {
     "id": "pvp-arena-kit",
+    "category": "mod",
     "name": "PvP Arena Kit",
     "author": "Strykr",
     "image": "https://picsum.photos/seed/pvparena/640/420",
     "download": "https://example.com/downloads/pvp-arena-kit-2.7.zip",
     "source": "https://github.com/strykr/pvp-arena-kit",
-    "description": "Met en place un système complet d'arènes PvP : files d'attente, kits d'équipement par classe, statistiques de joueurs et arènes prédéfinies prêtes à l'emploi.\n\nLe mod gère automatiquement la téléportation, la remise à zéro de l'inventaire après chaque combat et un classement persistant sauvegardé entre les redémarrages du serveur.\n\nFacilement personnalisable via des fichiers de configuration pour créer ses propres modes de jeu."
+    "description": {
+      "fr": "Met en place un système complet d'arènes PvP : files d'attente, kits d'équipement par classe, statistiques de joueurs et arènes prédéfinies prêtes à l'emploi.\n\nLe mod gère automatiquement la téléportation, la remise à zéro de l'inventaire après chaque combat et un classement persistant sauvegardé entre les redémarrages du serveur.\n\nFacilement personnalisable via des fichiers de configuration pour créer ses propres modes de jeu.",
+      "en": "Sets up a complete PvP arena system: queues, class-based equipment kits, player statistics and ready-to-use preset arenas.\n\nThe mod automatically handles teleportation, inventory reset after each fight, and a persistent leaderboard saved across server restarts.\n\nEasily customizable through configuration files to create your own game modes."
+    }
   },
   {
     "id": "skylands-generator",
+    "category": "mod",
     "name": "Skylands Generator",
     "author": "Nimbus_",
     "image": "https://picsum.photos/seed/skylands/640/420",
     "download": "https://example.com/downloads/skylands-generator-1.3.zip",
     "source": "https://github.com/nimbus/skylands-generator",
-    "description": "Remplace la génération du monde par un archipel d'îles flottantes reliées par des ponts naturels et des cascades suspendues.\n\nSkylands Generator inclut des ruines aériennes à explorer, des ressources rares exclusives aux îles les plus hautes, et un système de chute amorti pour éviter les morts accidentelles trop fréquentes.\n\nIdéal pour les serveurs qui veulent une expérience d'exploration verticale différente du monde classique."
+    "description": {
+      "fr": "Remplace la génération du monde par un archipel d'îles flottantes reliées par des ponts naturels et des cascades suspendues.\n\nSkylands Generator inclut des ruines aériennes à explorer, des ressources rares exclusives aux îles les plus hautes, et un système de chute amorti pour éviter les morts accidentelles trop fréquentes.\n\nIdéal pour les serveurs qui veulent une expérience d'exploration verticale différente du monde classique.",
+      "en": "Replaces world generation with an archipelago of floating islands connected by natural bridges and hanging waterfalls.\n\nSkylands Generator includes aerial ruins to explore, rare resources exclusive to the highest islands, and a fall-damping system to avoid overly frequent accidental deaths.\n\nIdeal for servers that want a vertical exploration experience different from the classic world."
+    }
+  },
+  {
+    "id": "vivid-life-textures",
+    "category": "texture",
+    "name": "Vivid Life",
+    "author": "PixelKiln",
+    "image": "https://picsum.photos/seed/vividlife/640/420",
+    "download": "https://example.com/downloads/vivid-life-textures-3.0.zip",
+    "source": "https://github.com/pixelkiln/vivid-life-textures",
+    "description": {
+      "fr": "Vivid Life repeint entièrement MultiCraft avec une palette de couleurs saturées et un style cartoon affirmé, pensé pour donner un aspect vivant et chaleureux à chaque bloc.\n\nLe pack couvre l'intégralité des blocs, objets et éléments d'interface, avec une attention particulière portée aux feuillages et aux textures d'eau animées.\n\nDisponible en résolution 32x et 64x, avec un pack d'options pour ajuster la saturation des couleurs selon les goûts.",
+      "en": "Vivid Life completely repaints MultiCraft with a saturated color palette and a bold cartoon style, designed to give every block a lively, warm look.\n\nThe pack covers every block, item and UI element, with special attention paid to foliage and animated water textures.\n\nAvailable in 32x and 64x resolution, with an options pack to adjust color saturation to taste."
+    }
+  },
+  {
+    "id": "rustic-realism",
+    "category": "texture",
+    "name": "Rustic Realism",
+    "author": "Hearthstone_Art",
+    "image": "https://picsum.photos/seed/rusticrealism/640/420",
+    "download": "https://example.com/downloads/rustic-realism-2.2.zip",
+    "source": "https://github.com/hearthstone-art/rustic-realism",
+    "description": {
+      "fr": "Rustic Realism apporte un rendu semi-réaliste à MultiCraft, avec des textures de bois, pierre et terre détaillées inspirées de matériaux réels.\n\nLe pack inclut des variantes de blocs vieillis pour les constructions médiévales et rurales, ainsi que des textures de ciel et d'éclairage retravaillées pour une ambiance plus immersive.\n\nOptimisé pour rester léger malgré le niveau de détail, compatible avec les shaders les plus courants.",
+      "en": "Rustic Realism brings a semi-realistic look to MultiCraft, with detailed wood, stone and dirt textures inspired by real materials.\n\nThe pack includes weathered block variants for medieval and rural builds, along with reworked sky and lighting textures for a more immersive atmosphere.\n\nOptimized to stay lightweight despite the level of detail, compatible with the most common shaders."
+    }
+  },
+  {
+    "id": "neon-blocks",
+    "category": "texture",
+    "name": "Neon Blocks",
+    "author": "GlitchPxl",
+    "image": "https://picsum.photos/seed/neonblocks/640/420",
+    "download": "https://example.com/downloads/neon-blocks-1.4.zip",
+    "source": "https://github.com/glitchpxl/neon-blocks",
+    "description": {
+      "fr": "Neon Blocks transforme MultiCraft en un univers cyberpunk, avec des contours lumineux, des dégradés néon et des textures inspirées de la science-fiction rétro.\n\nLe pack remplace les minerais et machines par des variantes futuristes animées, et ajoute un ciel nocturne étoilé avec effet de grille lumineuse.\n\nPensé pour les serveurs créatifs et les builds urbains, idéal en combinaison avec des shaders à fort contraste.",
+      "en": "Neon Blocks turns MultiCraft into a cyberpunk world, with glowing outlines, neon gradients and textures inspired by retro science fiction.\n\nThe pack replaces ores and machines with animated futuristic variants, and adds a starry night sky with a glowing grid effect.\n\nDesigned for creative servers and urban builds, ideal combined with high-contrast shaders."
+    }
+  },
+  {
+    "id": "pastel-meadows",
+    "category": "texture",
+    "name": "Pastel Meadows",
+    "author": "Willowynn",
+    "image": "https://picsum.photos/seed/pastelmeadows/640/420",
+    "download": "https://example.com/downloads/pastel-meadows-1.1.zip",
+    "source": "https://github.com/willowynn/pastel-meadows",
+    "description": {
+      "fr": "Pastel Meadows adoucit l'univers de MultiCraft avec une palette pastel délicate, parfaite pour les constructions cosy et les mondes de type cottage.\n\nLe pack retravaille en particulier les textures de végétation, de fleurs et de tissus pour leur donner un aspect peint à la main.\n\nLivré avec une variante haute luminosité pour les écrans peu lumineux et une variante standard pour un rendu plus fidèle à l'original.",
+      "en": "Pastel Meadows softens MultiCraft's look with a delicate pastel palette, perfect for cozy builds and cottage-style worlds.\n\nThe pack especially reworks vegetation, flower and fabric textures to give them a hand-painted feel.\n\nComes with a high-brightness variant for dimmer screens and a standard variant closer to the original look."
+    }
+  },
+  {
+    "id": "obsidian-hd",
+    "category": "texture",
+    "name": "Obsidian HD",
+    "author": "DarkforgeStudio",
+    "image": "https://picsum.photos/seed/obsidianhd/640/420",
+    "download": "https://example.com/downloads/obsidian-hd-4.0.zip",
+    "source": "https://github.com/darkforgestudio/obsidian-hd",
+    "description": {
+      "fr": "Obsidian HD propose une refonte sombre et haute définition de MultiCraft, avec des textures en résolution 128x et des reflets métalliques sur les blocs minéraux.\n\nLe pack met l'accent sur les environnements souterrains et les structures en pierre, avec un travail poussé sur les ombres portées et les normal maps.\n\nRecommandé sur un PC avec une bonne carte graphique : la résolution élevée peut impacter les performances sur du matériel ancien.",
+      "en": "Obsidian HD offers a dark, high-definition overhaul of MultiCraft, with 128x resolution textures and metallic reflections on mineral blocks.\n\nThe pack focuses on underground environments and stone structures, with detailed work on cast shadows and normal maps.\n\nRecommended on a PC with a decent graphics card: the high resolution can impact performance on older hardware."
+    }
+  },
+  {
+    "id": "voxel-classic-remix",
+    "category": "texture",
+    "name": "Voxel Classic Remix",
+    "author": "8bit_Renny",
+    "image": "https://picsum.photos/seed/voxelclassic/640/420",
+    "download": "https://example.com/downloads/voxel-classic-remix-1.0.zip",
+    "source": "https://github.com/8bitrenny/voxel-classic-remix",
+    "description": {
+      "fr": "Voxel Classic Remix revisite le style historique de MultiCraft en conservant l'esprit pixel-art d'origine, tout en nettoyant les contours et en harmonisant les couleurs.\n\nLe pack reste en résolution 16x pour garantir des performances maximales et une compatibilité totale avec les anciens appareils.\n\nParfait pour les joueurs nostalgiques qui veulent un rendu plus propre sans perdre l'identité visuelle classique du jeu.",
+      "en": "Voxel Classic Remix revisits MultiCraft's original look while keeping its pixel-art spirit, cleaning up edges and harmonizing colors.\n\nThe pack stays at 16x resolution to guarantee maximum performance and full compatibility with older devices.\n\nPerfect for nostalgic players who want a cleaner look without losing the game's classic visual identity."
+    }
   }
 ]
