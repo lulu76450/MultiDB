@@ -19,10 +19,8 @@
     "image": "https://multidb.vercel.app/images/clear-vision.png",
     "download": "https://files.catbox.moe/8wvcwn.zip",
     "description": {
-   {
-  "fr": "Ce pack de textures masques les particules et les effets visuels qui obstruent le champ de vision du joueur.\n\nFonctionnalités notables :\n\nMasque l'effet visuel de la longue-vue\nSupprime entièrement les visuels de Cécité et de Fumée\nÉlimine presque toutes les particules du jeu !",
- "en": "This texture pack hides particles and effects that block the player's field of vision.\n\nNotable features:\n\nHides the visual effect of the Spyglass\nCompletely removes Blindness and Smoke visuals\nRemoves almost all particles from the game!"
-    }
+      "fr": "Ce pack de textures masques les particules et les effets visuels qui obstruent le champ de vision du joueur.\n\nFonctionnalités notables :\n\nMasque l'effet visuel de la longue-vue\nSupprime entièrement les visuels de Cécité et de Fumée\nÉlimine presque toutes les particules du jeu !",
+      "en": "This texture pack hides particles and effects that block the player's field of vision.\n\nNotable features:\n\nHides the visual effect of the Spyglass\nCompletely removes Blindness and Smoke visuals\nRemoves almost all particles from the game!"
     }
   }
 ]
