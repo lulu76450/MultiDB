@@ -494,6 +494,38 @@ body.cursor-active #cursor-halo {
   font-weight: 600;
 }
 
+.btn-discord {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid rgba(88, 101, 242, 0.35);
+  background: rgba(88, 101, 242, 0.1);
+  color: #8e9bff;
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition), color var(--transition), transform var(--transition);
+}
+
+.btn-discord:hover {
+  background: rgba(88, 101, 242, 0.2);
+  border-color: rgba(88, 101, 242, 0.6);
+  transform: translateY(-1px);
+}
+
+.btn-discord .discord-icon {
+  flex-shrink: 0;
+}
+
+.btn-discord.copied {
+  background: rgba(74, 222, 128, 0.12);
+  border-color: var(--border-strong);
+  color: var(--green);
+}
+
 .mod-detail-description {
   background: var(--bg-card);
   border: 1px solid var(--border);
