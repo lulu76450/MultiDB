@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos — MultiDB</title>
+<meta name="description" content="En savoir plus sur MultiDB, la plateforme communautaire de mods et textures pour MultiCraft.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .about-section {
+    margin-bottom: 3rem;
+  }
+
+  .about-section h2 {
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    margin-bottom: 1.25rem;
+    position: relative;
+    display: inline-block;
+  }
+
+  .about-section h2::after {
+    content: '';
+    display: block;
+    margin-top: 0.4rem;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, var(--green-dim), transparent);
+    border-radius: 2px;
+  }
+
+  .about-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.75rem 2rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  .about-card p + p {
+    margin-top: 0.85rem;
+  }
+
+  .about-card a {
+    color: var(--green);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(74, 222, 128, 0.3);
+    transition: border-color var(--transition), color var(--transition);
+  }
+
+  .about-card a:hover {
+    color: var(--green-dim);
+    border-color: var(--green-dim);
+  }
+
+  .team-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    margin-top: 1.5rem;
+  }
+
+  .team-member {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.5rem;
+    transition: border-color var(--transition), background var(--transition), transform var(--transition);
+  }
+
+  .team-member:hover {
+    border-color: var(--border-strong);
+    background: var(--bg-card-hover);
+    transform: translateX(4px);
+  }
+
+  .team-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--green-dim), #166534);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    border: 1px solid var(--border-strong);
+    box-shadow: 0 0 12px var(--green-glow);
+  }
+
+  .team-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .team-role {
+    font-size: 0.8rem;
+    color: var(--green-muted);
+    margin-top: 0.1rem;
+  }
+
+  .team-thanks {
+    margin-top: 1.25rem;
+    background: rgba(74, 222, 128, 0.05);
+    border: 1px solid rgba(74, 222, 128, 0.15);
+    border-radius: var(--radius-sm);
+    padding: 0.9rem 1.25rem;
+    color: var(--text-muted);
+    font-size: 0.93rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .team-thanks span.emoji {
+    font-size: 1.1rem;
+  }
+
+  .contact-block {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .contact-block a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.25rem;
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-sm);
+    color: var(--green);
+    text-decoration: none;
+    font-size: 0.92rem;
+    font-weight: 600;
+    background: rgba(74, 222, 128, 0.05);
+    transition: background var(--transition), border-color var(--transition), transform var(--transition);
+  }
+
+  .contact-block a:hover {
+    background: rgba(74, 222, 128, 0.12);
+    border-color: var(--green);
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 560px) {
+    .about-card {
+      padding: 1.25rem 1.1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="grid-bg"></div>
+<div id="cursor-halo"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="icon.png" alt="Logo" style="width: 2em; height: 2em; vertical-align: middle;" />
+      <span class="logo-text">Multi<em>DB</em></span>
+    </a>
+    <nav style="display:flex; gap: 0.75rem; flex-shrink: 0;">
+      <a href="index.html" class="btn btn-ghost" style="padding: 0.55rem 1.1rem; font-size: 0.88rem;">← Accueil</a>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+  <div class="page active">
+
+    <!-- Hero -->
+    <div class="page-header" style="margin-bottom: 2.5rem;">
+      <h1>À <span class="gradient-text">propos</span></h1>
+      <p style="color: var(--text-muted);">Qui sommes-nous et pourquoi MultiDB existe.</p>
+    </div>
+
+    <!-- Section : À propos du projet -->
+    <section class="about-section">
+      <h2>Le projet</h2>
+      <div class="about-card">
+        <p>
+          Nous avons créé ce projet afin d'offrir un site centralisé sur lequel vous pouvez trouver ce que vous voulez pour <strong style="color: var(--text);">MultiCraft</strong>.
+        </p>
+        <p>
+          Cette plateforme propose le travail de différentes personnes de manière <strong style="color: var(--green);">gratuite</strong> et <strong style="color: var(--green);">sans publicité</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section : L'équipe -->
+    <section class="about-section">
+      <h2>L'équipe</h2>
+      <div class="about-card">
+        <p>
+          Ce site a été créé par l'équipe de
+          <a href="https://multicraft-info.netlify.app" target="_blank" rel="noopener noreferrer">MultiCraft Info</a>,
+          composée de deux personnes :
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="team-avatar">🎮</div>
+          <div>
+            <div class="team-name">Lucas76</div>
+            <div class="team-role">Co-fondateur</div>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="team-avatar">⚙️</div>
+          <div>
+            <div class="team-name">Aurelmattnath</div>
+            <div class="team-role">Co-fondateur</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-thanks">
+        <span class="emoji">🙏</span>
+        <span>L'idée nous a été donnée par <strong style="color: var(--text);">Raphaventure</strong> — merci à lui !</span>
+      </div>
+    </section>
+
+    <!-- Section : Contact -->
+    <section class="about-section">
+      <h2>Contact</h2>
+      <div class="about-card">
+        <p>Une question, une suggestion ou envie de contribuer ? Contactez-nous par e-mail.</p>
+      </div>
+      <div class="contact-block">
+        <a href="mailto:creatif.france@outlook.com">
+          ✉️ creatif.france@outlook.com
+        </a>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>MultiDB — Store communautaire de mods et textures pour MultiCraft. Non affilié à l'éditeur du jeu.</p>
+</footer>
+
+<script>
+  // Cursor halo effect (same as main site)
+  const halo = document.getElementById('cursor-halo');
+  document.addEventListener('mousemove', e => {
+    halo.style.transform = `translate(${e.clientX - 50}px, ${e.clientY - 50}px)`;
+    document.body.classList.add('cursor-active');
+  });
+  document.addEventListener('mouseleave', () => {
+    document.body.classList.remove('cursor-active');
+  });
+</script>
+
+</body>
+</html>
