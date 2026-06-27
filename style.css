@@ -116,11 +116,12 @@ body.cursor-active #cursor-halo {
   color: var(--green);
 }
 
-..logo-icon {
-  font-size: 1.8rem; 
+.logo img {
+  width: 32px; 
+  height: 32px; 
+  margin-top: -4px; 
+  margin-right: 8px; 
   filter: drop-shadow(0 0 8px var(--green-glow));
-  margin-top: -10px; 
-  line-height: 1; 
 }
 
 .logo em {
