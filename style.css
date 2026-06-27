@@ -117,10 +117,10 @@ body.cursor-active #cursor-halo {
 }
 
 .logo img {
-  width: 32px; 
-  height: 32px; 
+  width: 50px; 
+  height: 50px; 
   margin-top: -4px; 
-  margin-right: 8px; 
+  margin-right: 15px; 
   filter: drop-shadow(0 0 8px var(--green-glow));
 }
 
