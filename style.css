@@ -119,7 +119,7 @@ body.cursor-active #cursor-halo {
 ..logo-icon {
   font-size: 1.8rem; 
   filter: drop-shadow(0 0 8px var(--green-glow));
-  margin-top: -4px; 
+  margin-top: -10px; 
   line-height: 1; 
 }
 
