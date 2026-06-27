@@ -36,8 +36,9 @@
     "description": {
       "fr": "Un texture pack qui ajoute de nouvelles textures pour les blocs de brique",
       "en": "A texture pack that add new textures for bricks blocks"
-    },
-    {
+    }
+  },
+  {
     "id": "minecraft",
     "category": "texture",
     "name": "Minecraft",
