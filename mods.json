@@ -49,6 +49,18 @@
     "description": {
       "fr": "Un texture pack qui reprend les textures de Minecraft",
       "en": "A texture pack that add Minecraft's textures."
+    },
+      {
+    "id": "sapphire",
+    "category": "mod",
+    "name": "Sapphire",
+    "author": "Raphaventure",
+    "discord": "raphaventure",
+    "image": "https://multidb.vercel.app/images/sapphire.png",
+    "download": "https://files.catbox.moe/98esmt.zip",
+    "description": {
+      "fr": "Un mod qui ajoute des outils, minerais et blocs de sapphire.",
+      "en": "A mod that add tools, ores and blocks of sapphire."
     }
   }
 ]
