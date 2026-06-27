@@ -117,10 +117,8 @@ body.cursor-active #cursor-halo {
 }
 
 .logo img {
-  width: 50px; 
-  height: 50px; 
-  margin-top: -4px; 
-  margin-right: 15px; 
+  width: 2em;
+  height: 2em;
   filter: drop-shadow(0 0 8px var(--green-glow));
 }
 
@@ -312,7 +310,7 @@ body.cursor-active #cursor-halo {
   font-size: 0.85rem;
 }
 
-/* ── Sélecteur de langue ── */
+/* -- Sélecteur de langue -- */
 
 .lang-switch {
   display: flex;
@@ -346,7 +344,7 @@ body.cursor-active #cursor-halo {
   color: var(--bg-deep);
 }
 
-/* ── Filtres de catégories ── */
+/* -- Filtres de catégories -- */
 
 .category-filters {
   display: flex;
@@ -379,7 +377,7 @@ body.cursor-active #cursor-halo {
   border-color: var(--green-dim);
 }
 
-/* ── Liste des mods ── */
+/* -- Liste des mods -- */
 
 .mods-list {
   display: flex;
@@ -458,7 +456,7 @@ body.cursor-active #cursor-halo {
   word-break: break-word;
 }
 
-/* ── Page détail d'un mod ── */
+/* -- Page détail d'un mod -- */
 
 .back-btn {
   margin-bottom: 1.75rem;
@@ -522,7 +520,7 @@ body.cursor-active #cursor-halo {
   flex-wrap: wrap;
 }
 
-/* ── MEDIA QUERIES ── */
+/* -- MEDIA QUERIES -- */
 
 @media (max-width: 1024px) {
   .header-inner {
