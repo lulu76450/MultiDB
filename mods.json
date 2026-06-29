@@ -76,5 +76,18 @@
       "fr": "Ce mod ajoute des outils et armures en quartz dans votre monde.",
       "en": "This Quartz Mod adds quartz tools and armors into your MultiCraft world."
     }
+  },
+  {
+    "id": "bonusbox",
+    "category": "mod",
+    "name": "Bonusbox",
+    "author": "Raphaventure",
+    "discord": "raphaventure",
+    "image": "https://multidb.vercel.app/images/bonusbox.png",
+    "download": "https://files.catbox.moe/ltndkv.zip",
+    "description": {
+      "fr": "Ce mod ajoute un coffre bonus à votre monde.",
+      "en": "This mod add a bonus chest to your world"
+    }
   }
-]
+  ]
