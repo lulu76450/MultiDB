@@ -31,7 +31,11 @@
       'footer-text': 'MultiDB — Store communautaire de mods et textures pour MultiCraft. Non affilié à MultiCraft.',
       'page-title': 'MultiDB — Mods & Textures pour MultiCraft',
       'page-description': 'MultiDB, le store communautaire de mods et textures pour MultiCraft.',
-      'page-detail-title': '— MultiDB'
+      'page-detail-title': '— MultiDB',
+      'post-mod-button': 'Poster un mod',
+      'post-mod-title': 'Poster un mod',
+      'post-mod-text': 'Pour poster un mod, envoie un message sur Discord à <strong>.lucas76.</strong> ou un mail à <a href="mailto:creatif.france@outlook.com">creatif.france@outlook.com</a>.',
+      'post-mod-close': 'Fermer'
     },
     en: {
       'hero-title-start': 'Mods',
@@ -57,7 +61,11 @@
       'footer-text': 'MultiDB — Community store of mods and textures for MultiCraft. Not affiliated with MultiCraft.',
       'page-title': 'MultiDB — Mods & Textures for MultiCraft',
       'page-description': 'MultiDB, the community store of mods and textures for MultiCraft.',
-      'page-detail-title': '— MultiDB'
+      'page-detail-title': '— MultiDB',
+      'post-mod-button': 'Post a mod',
+      'post-mod-title': 'Post a mod',
+      'post-mod-text': 'To post a mod, send a message on Discord to <strong>.lucas76.</strong> or an email to <a href="mailto:creatif.france@outlook.com">creatif.france@outlook.com</a>.',
+      'post-mod-close': 'Close'
     }
   };
 
@@ -117,6 +125,10 @@
     });
     document.getElementById('back-btn').textContent = t('back-button');
     document.getElementById('footer-text').textContent = t('footer-text');
+    document.getElementById('post-mod-btn').textContent = t('post-mod-button');
+    document.getElementById('post-mod-title').textContent = t('post-mod-title');
+    document.getElementById('post-mod-text').innerHTML = t('post-mod-text');
+    document.getElementById('post-mod-close').setAttribute('aria-label', t('post-mod-close'));
   }
 
   function updateLangButtons() {
@@ -389,6 +401,29 @@ discordHtml =
       btn.classList.add('active');
       renderList(searchInput.value);
     });
+  });
+
+  // ========== MODALE "POSTER UN MOD" ==========
+
+  var postModBtn = document.getElementById('post-mod-btn');
+  var postModOverlay = document.getElementById('post-mod-overlay');
+  var postModClose = document.getElementById('post-mod-close');
+
+  function openPostModModal() {
+    postModOverlay.classList.add('active');
+  }
+
+  function closePostModModal() {
+    postModOverlay.classList.remove('active');
+  }
+
+  postModBtn.addEventListener('click', openPostModModal);
+  postModClose.addEventListener('click', closePostModModal);
+  postModOverlay.addEventListener('click', function (e) {
+    if (e.target === postModOverlay) closePostModModal();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closePostModModal();
   });
 
   // ========== CHARGEMENT DES DONNÉES ==========
